@@ -11,7 +11,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/dagimawit",
   resume:
-    "https://drive.google.com/file/d/1uYVMPA-gCjEQB-L8tQZYHJF5bWHyXGJm/view?usp=sharing",
+    "https://drive.google.com/file/d/1oiwWqt9qYUwq18H8rsXpCh4jeQIVO2Cp/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dagmawit-abeselom-36ba49256/",
 
   
@@ -215,8 +215,8 @@ export const education = [
     img: "/images (8).jpg",
     school: "Addis Abeba University, Addis Abeba",
     date: "Apr 2019 - Apr 2025",
-    desc: "I am highly motivated 4th year Software Engineering Student",
-    degree: "Softeware Enginnering",
+    desc: "I’m a software engineer with over 3 years of experience working remotely and on project-based teams.I enjoy building user-friendly applications and thrive in collaborative environments.I’m passionate about solving problems through clean, scalable code and love creating solutions that make a real difference.",
+    degree: "Software Engineering",
   },
 ];
 
@@ -224,19 +224,41 @@ export const projects = [
 
   {
     id: 1,
-    title: "Save Lives",
-    image : "/C.PNG",
-    date: "Jul 2022",
+    title: "Travello",
+    image : "/cpng.png",
+    date: "Jul 2023",
     description:
-      "Save Lifes, a MERN stack project, was motivated by the challenges faced by Ethiopians unable to pay for medical care. It's a GoFundMe-like portal created especially for patients in need. Logging in allows users to upload medical bills and hospital approval letters and request financial aid. The project uses Node.js/Express for the backend, React and Bootstrap for the frontend, and MongoDB for the database. States, routing, and route protection were handled using React technologies including functional components, react-router-dom, and hooks like useState, useEffect, and useRef. Jwt-tokens were utilised for secure authentication, and Axios was used to retrieve API data. I used Express.js to create a RESTful API on the backend, integrating jwt-tokens for safe authorization and authentication.",
-    tags: ["React Js",  "Bootstrap", "Node JS"],
+      "A dynamic travel platform engineered for a seamless user experience. The React and TypeScript front-end delivers a fast, interactive interface, while the custom Express.js API and MongoDB backend ensure efficient data handling and significantly reduced load times.",
+    tags: ["React Js",  "Tailwind CSS", "TypeScript"],
     category: "web app",
-    github: "https://github.com/dagimawit/SAVE-LIFES",
+    webapp: "https://travello-six.vercel.app/",
+  },
+    {
+    id: 2,
+    title: "Shopify e-commerce App",
+    date: "Jul 2024",
+    description:
+    "A responsive front-end dashboard for employee data management. Developed with React and TypeScript, it presents a clean and modern user interface using TailwindCSS for optimal layout and readability.",
+    image: "/dpnh.png",
+    tags: ["Next Js", "Tailwind CSS", "TypeScript"],
+    category: "Web app",
+    webapp: "https://e-commerce-lovat-nine-20.vercel.app/employees"
+  },
+     {
+    id: 3,
+    title: "Shopify e-commerce App",
+    date: "Jul 2024",
+    description:
+    "A modern and responsive e-commerce frontend showcasing a curated collection of watches. Built with React and styled with Tailwind CSS, it features a clean, user-centric design for an intuitive browsing and shopping experience.",
+    image: "/dd.png",
+    tags: ["React Js","React", "Tailwind CSS", "TypeScript"],
+    category: "Web app",
+    webapp: "http://46.101.95.236/"
   },
   {
     id: 2,
     title: "Flower Delivery App",
-    date: "Jun 2024- Jul 2024",
+    date: "Jul 2024",
     description:
     "It's an intuitive flower delivery platform where users register to browse a diverse selection of flowers. If they find one they love, they can easily arrange delivery for that specific bloom.",
     image: "/D.PNG",
@@ -264,7 +286,7 @@ export const projects = [
       "./w.PNG",
     tags: ["Figma",],
     category: "UI/UX Design",
-    github: "https://www.figma.com/design/0Iahyz7LOXT0wBflcYQFrL/Dagmawit-Abeselom's-team-library?node-id=0-1&t=7SHM2NZY00QQ7oJj-0",
+    // github: "https://www.figma.com/design/0Iahyz7LOXT0wBflcYQFrL/Dagmawit-Abeselom's-team-library?node-id=0-1&t=7SHM2NZY00QQ7oJj-0",
     webapp: "UI/UX Designr",
   },
   
