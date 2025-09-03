@@ -8,7 +8,7 @@ export const Bio = {
     "Competitive Programmer"
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Creative and adaptable Software Engineer who enjoys turning ideas into impactful digital solutions. I thrive in collaborative environments, love tackling challenges with a problem-solving mindset, and bring curiosity, adaptability, and a passion for continuous learning to every project.",
   github: "https://github.com/dagimawit",
   resume:
     "https://drive.google.com/file/d/1oiwWqt9qYUwq18H8rsXpCh4jeQIVO2Cp/view?usp=sharing",
@@ -148,26 +148,47 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "/Capture.PNG",
-    role: "React Js Intern",
-    company: "Sync Interns",
-    date: "Jul 2023 -  Aug 2023",
-    desc: "Working on React js, Next js, Redux, and Material UI for Building an amazing and interactive user interfaces",
+    img: "/yene.jpg",
+    role: "Frontend Developer",
+    company: "Yeneta Code",
+    date: "Jul 2024 -  present",
+    desc: "Building responsive UIs with React, Next.js, and Redux Toolkit, focusing on authentication and modern frontend best practices.",
     skills: [
       "JavaScript",
       "TypeScript",
-      "Node Js",
-      " Next Js",
+      "Material UI",
+      "Redux Toolkit",
+      "Shadcn UI",
+      "Tailwind Css",
+      "Next Js",
       "React Js"
     ],
   },
-  {
+    {
     id: 1,
-    img: "",
-    role: "FrontEnd Engineer intern",
+    img: "/image.png",
+    role: "Full Stack Developer",
+    company: "A2SV",
+    date: "May 2024 - jun 2025",
+      desc: "Developing a full-stack e-commerce website with modern UI and robust backend features.",
+    skills: [
+      "Next Js",
+      "Tailwind Css",
+      "Redux Toolkit",
+      "Material UI",
+      "Shadcn UI",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+    ],
+  },
+  {
+    id: 2,
+    img: "/oneko.png",
+    role: "FrontEnd Developer",
     company: "Onekoo",
     date: "June 2024 - present",
-    desc: "Building a front end Coffe website",
+      desc: "Building a coffee shop website using modern technologies like React.js, Material UI, and Shadcn UI for great user interfaces.",
     skills: [
       "ReactJS",
       "Redux",
@@ -181,29 +202,17 @@ export const experiences = [
   },
   {
     id: 3,
-    img: "/Capture1.PNG",
-    role: "AI Related Projects",
-    company: "Minnovation",
-    date: "Nov2021 - Present",
-    desc: "Working and Involving on Integrated systems that are building with integating",
+    img: "/Aladia.jpg",
+    role: "UI/UX Designer",
+    company: "Aladia",
+    date: "Jun 2024 - Apr 2025",
+      desc: "Designing intuitive and engaging user experiences for an innovative e-learning platform.",
     skills: [
-      "IOT",
-      "AI",
-      
-    ],
-  },
-  {
-    id: 4,
-    img: "/image.png",
-    role: "Web Development Intern",
-    company: "A2SV",
-    date: "May -present",
-    desc: "Working on one of A2SV projects with Building an amazing and interactive user interfaces",
-    skills: [
-      "React Js",
-      "Next Js",
-      "Tailwind Css",
-      "Redux",
+      "Figma",
+      "Framer",
+      "User Research",
+      "Prototyping",
+      "Usability Testing",
     ],
   },
 ];
@@ -215,9 +224,18 @@ export const education = [
     img: "/images (8).jpg",
     school: "Addis Abeba University, Addis Abeba",
     date: "Apr 2019 - Apr 2025",
-    desc: "I’m a software engineer with over 3 years of experience working remotely and on project-based teams.I enjoy building user-friendly applications and thrive in collaborative environments.I’m passionate about solving problems through clean, scalable code and love creating solutions that make a real difference.",
+      desc: "A rewarding journey in software engineering, learning, growing, and building real-world solutions.",
     degree: "Software Engineering",
   },
+  {
+    id: 2,
+    img: "/image.png",
+    school: "African to Sillicon Valley, Addis Abeba",
+    date: "Nov 2023 - Apr 2024",
+      desc: "Trained and learned data structures and algorithms through hands-on projects and teamwork.",
+    degree: "Data Structure and Algorithm",
+  },
+
 ];
 
 export const projects = [
@@ -244,7 +262,7 @@ export const projects = [
     category: "Web app",
     webapp: "https://e-commerce-lovat-nine-20.vercel.app/employees"
   },
-     {
+  {
     id: 3,
     title: "Shopify e-commerce App",
     date: "Jul 2024",
@@ -256,38 +274,15 @@ export const projects = [
     webapp: "http://46.101.95.236/"
   },
   {
-    id: 2,
-    title: "Flower Delivery App",
-    date: "Jul 2024",
-    description:
-    "It's an intuitive flower delivery platform where users register to browse a diverse selection of flowers. If they find one they love, they can easily arrange delivery for that specific bloom.",
-    image: "/D.PNG",
-    tags: ["Flutter", "Node.js", "Axios"],
-    category: "android app",
-  },
-  {
-    id: 3,
-    title: "Med Assistant",
-    date: "Jan 2024",
-    description:"Medical Assistant which also include disease prediction and classification",
-    image:
-      "/h.jpg",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/4th-year-Projects/Med-Assistant?tab=readme-ov-file",
-    webapp: "Machine Learning",
-  },
-  {
     id: 4,
     title: "UI/UX Design",
-    date: "Jan 2024",
-    description:"My Amazing UI/UX Design",
+    date: "Jan 2023 - Present",
+      description:"A showcase of my design collections and creative UI/UX work.",
     image:
       "./w.PNG",
     tags: ["Figma",],
     category: "UI/UX Design",
-    // github: "https://www.figma.com/design/0Iahyz7LOXT0wBflcYQFrL/Dagmawit-Abeselom's-team-library?node-id=0-1&t=7SHM2NZY00QQ7oJj-0",
-    webapp: "UI/UX Designr",
+    webapp: "https://dagmawitabeselom.framer.website/",
   },
   
 ];
