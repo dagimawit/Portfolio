@@ -273,8 +273,19 @@ export const projects = [
     category: "Web app",
     webapp: "http://46.101.95.236/"
   },
-  {
+   {
     id: 4,
+    title: "Sheba Market e-commerce App",
+    date: "Mar 2024",
+    description:
+    "A full-featured e-commerce frontend for fashion retail, delivering a seamless shopping experience with a responsive React interface and modern design.",
+    image: "/sheba.png",
+    tags: ["React Js","React", "Tailwind CSS", "TypeScript", "Redux Toolkit", "Material UI", "Shadcn UI"],
+    category: "Web app",
+    webapp: "https://sheba-market.vercel.app/products/clothes"
+  },
+  {
+    id: 5,
     title: "UI/UX Design",
     date: "Jan 2023 - Present",
       description:"A showcase of my design collections and creative UI/UX work.",
