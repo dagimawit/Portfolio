@@ -279,8 +279,8 @@ export const projects = [
     date: "Jan 2023 - Present",
       description:"A showcase of my design collections and creative UI/UX work.",
     image:
-      "./w.PNG",
-    tags: ["Figma",],
+      "./my.jpg",
+    tags: ["Figma","Framer","Prototyping"],
     category: "UI/UX Design",
     webapp: "https://dagmawitabeselom.framer.website/",
   },
