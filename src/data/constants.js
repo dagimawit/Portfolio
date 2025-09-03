@@ -264,7 +264,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Shopify e-commerce App",
+    title: "Aga Cieśla App",
     date: "Jul 2024",
     description:
     "A modern and responsive e-commerce frontend showcasing a curated collection of watches. Built with React and styled with Tailwind CSS, it features a clean, user-centric design for an intuitive browsing and shopping experience.",
