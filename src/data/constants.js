@@ -5,7 +5,7 @@ export const Bio = {
     "Android Developer",
     "UI/UX Designer",
     "Programmer",
-    "Competitive Programmer"
+    "Competitive Programmer",
   ],
   description:
     "Creative and adaptable Software Engineer who enjoys turning ideas into impactful digital solutions. I thrive in collaborative environments, love tackling challenges with a problem-solving mindset, and bring curiosity, adaptability, and a passion for continuous learning to every project.",
@@ -13,10 +13,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1oiwWqt9qYUwq18H8rsXpCh4jeQIVO2Cp/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dagmawit-abeselom-36ba49256/",
-
-  
 };
-
 export const skills = [
   {
     title: "Frontend",
@@ -133,80 +130,49 @@ export const skills = [
       },
       {
         name: "Postman",
-        image:
-        "/p.png"
+        image: "/p.png",
       },
       {
         name: "Figma",
-        image:
-        "/1578556490672.jpg"
+        image: "/1578556490672.jpg",
       },
     ],
   },
 ];
 
 export const experiences = [
-  {
+    {
     id: 0,
     img: "/yene.jpg",
-    role: "Frontend Developer",
+    role: "Fullstack Developer",
     company: "Yeneta Code",
-    date: "Jul 2024 -  present",
-    desc: "Building responsive UIs with React, Next.js, and Redux Toolkit, focusing on authentication and modern frontend best practices.",
+    date: "Jun 2025 -  present",
+    desc: "I'm a Full-Stack Developer. I build complete web applications, working on everything from the user interface to the server logic. I focus on making apps that are easy to use, run smoothly, and can grow over time.",
     skills: [
       "JavaScript",
       "TypeScript",
       "Material UI",
-      "Redux Toolkit",
       "Shadcn UI",
+      "Bootstrap",
       "Tailwind Css",
+      "Redux Toolkit",
       "Next Js",
-      "React Js"
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "Better-auth",
+      "MongoDB",
+      "prisma",
+      "Redis",
     ],
   },
     {
     id: 1,
-    img: "/image.png",
-    role: "Full Stack Developer",
-    company: "A2SV",
-    date: "May 2024 - jun 2025",
-      desc: "Developing a full-stack e-commerce website with modern UI and robust backend features.",
-    skills: [
-      "Next Js",
-      "Tailwind Css",
-      "Redux Toolkit",
-      "Material UI",
-      "Shadcn UI",
-      "Node Js",
-      "Express Js",
-      "MongoDB",
-    ],
-  },
-  {
-    id: 2,
-    img: "/oneko.png",
-    role: "FrontEnd Developer",
-    company: "Onekoo",
-    date: "June 2024 - present",
-      desc: "Building a coffee shop website using modern technologies like React.js, Material UI, and Shadcn UI for great user interfaces.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "MongoDB",
-    ],
-  },
-  {
-    id: 3,
     img: "/Aladia.jpg",
     role: "UI/UX Designer",
     company: "Aladia",
-    date: "Jun 2024 - Apr 2025",
-      desc: "Designing intuitive and engaging user experiences for an innovative e-learning platform.",
+    date: "Jun 2024 - Jun 2025",
+    desc: "Designing intuitive and engaging user experiences for an innovative e-learning platform.",
     skills: [
       "Figma",
       "Framer",
@@ -215,16 +181,49 @@ export const experiences = [
       "Usability Testing",
     ],
   },
+   {
+    id: 2,
+    img: "/image.png",
+    role: "Frontend Web Developer",
+    company: "A2SV",
+    date: "Mar 2024 - Jul 2025",
+    desc: "I worked on an e-commerce project as a frontend developer. I used Next.js, React, Tailwind CSS, and Redux to build a fast, responsive website with clean and reusable components. I focused on creating a smooth user experience and worked closely with my team.",
+    skills: [
+      "Next Js",
+      "React Js",
+      "Tailwind Css",
+      "Redux",
+      "Redux Toolkit",
+      "Material UI",
+      "Shadcn UI",
+    ],
+  },
+  {
+    id: 3,
+    img: "/oneko.png",
+    role: "Frontend Developer",
+    company: "PSYANN graphics and advertisment",
+    date: "Jul 2023 - Dec 2023",
+    desc: "Building a coffee shop website using modern technologies like React.js, Material UI, and Shadcn UI for great user interfaces.",
+    skills: [
+      "ReactJS",
+      "Next Js",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Material UI",
+      "Shadcn UI",
+      "bootstrap",
+    ],
+  },
 ];
 
 export const education = [
- 
   {
     id: 1,
     img: "/images (8).jpg",
     school: "Addis Abeba University, Addis Abeba",
     date: "Apr 2019 - Apr 2025",
-      desc: "A rewarding journey in software engineering, learning, growing, and building real-world solutions.",
+    desc: "A rewarding journey in software engineering, learning, growing, and building real-world solutions.",
     degree: "Software Engineering",
   },
   {
@@ -232,76 +231,100 @@ export const education = [
     img: "/image.png",
     school: "African to Sillicon Valley, Addis Abeba",
     date: "Nov 2023 - Apr 2024",
-      desc: "Trained and learned data structures and algorithms through hands-on projects and teamwork.",
+    desc: "Trained and learned data structures and algorithms through hands-on projects and teamwork.",
     degree: "Data Structure and Algorithm",
   },
-
 ];
 
 export const projects = [
-
   {
     id: 1,
-    title: "Travello",
-    image : "/cpng.png",
+    title: "GoCart Shop e-commerce App",
+    image: "/Gocart.png",
     date: "Jul 2023",
     description:
-      "A dynamic travel platform engineered for a seamless user experience. The React and TypeScript front-end delivers a fast, interactive interface, while the custom Express.js API and MongoDB backend ensure efficient data handling and significantly reduced load times.",
-    tags: ["React Js",  "Tailwind CSS", "TypeScript"],
+      "GoCart Shop is an e-commerce web application that allows users to browse products, add items to a cart, and complete purchases through a clean and user-friendly interface. The platform focuses on smooth navigation, responsive design, and a simple shopping experience across devices.",
+    tags: ["Next Js", "Tailwind CSS", "TypeScript", "Redux Toolkit"],
     category: "web app",
-    webapp: "https://travello-six.vercel.app/",
+    webapp: "https://gocartshop.in/",
   },
-    {
+{
     id: 2,
-    title: "Shopify e-commerce App",
-    date: "Jul 2024",
+    title: "Car Rental App",
+    date: "Mar 2024",
     description:
-    "A responsive front-end dashboard for employee data management. Developed with React and TypeScript, it presents a clean and modern user interface using TailwindCSS for optimal layout and readability.",
-    image: "/dpnh.png",
-    tags: ["Next Js", "Tailwind CSS", "TypeScript"],
+      "Car Rental Web App is a modern web application that allows users to browse available cars, view details, and make rental selections through a clean and responsive interface. The platform focuses on user-friendly navigation, clear presentation of vehicle information, and a smooth booking experience across devices.",
+    image: "/car.png",
+    tags: ["React Js", "Tailwind CSS", "TypeScript","Express Js","Node Js","MongoDB"],
     category: "Web app",
-    webapp: "https://e-commerce-lovat-nine-20.vercel.app/employees"
+    webapp: "https://car-rental-gs.vercel.app/",
   },
   {
     id: 3,
-    title: "Aga Cieśla App",
-    date: "Jul 2024",
+    title: "Corporate Website",
+    date: "Aug 2024",
     description:
-    "A modern and responsive e-commerce frontend showcasing a curated collection of watches. Built with React and styled with Tailwind CSS, it features a clean, user-centric design for an intuitive browsing and shopping experience.",
-    image: "/dd.png",
-    tags: ["React Js","React", "Tailwind CSS", "TypeScript"],
+      "Corporate Website is a modern web platform designed to present company information, services, and brand identity in a clean and professional layout. The site focuses on responsive design, clear content structure, and a smooth user experience to effectively communicate corporate values across all devices.",
+    image: "/cor.png",
+    tags: ["React Js", "Tailwind CSS", "TypeScript","Express Js","Node Js","MongoDB"],
     category: "Web app",
-    webapp: "http://46.101.95.236/"
+    webapp: "https://corporate-zeta-brown.vercel.app/",
   },
    {
     id: 4,
-    title: "Sheba Market e-commerce App",
-    date: "Mar 2024",
+    title: "Food Ordering Web App",
+    date: "Nov 2025",
     description:
-    "A full-featured e-commerce frontend for fashion retail, delivering a seamless shopping experience with a responsive React interface and modern design.",
-    image: "/sheba.png",
-    tags: ["React Js","React", "Tailwind CSS", "TypeScript", "Redux Toolkit", "Material UI", "Shadcn UI"],
+      "Food Ordering Web App is a user-friendly web application that allows users to explore food items, view details, and place orders through a clean and responsive interface. The platform focuses on smooth navigation, clear visuals, and an enjoyable browsing experience across devices.",
+    image: "/food.png",
+    tags: ["React Js", "Tailwind CSS", "TypeScript","Express Js","Node Js","MongoDB"],
     category: "Web app",
-    webapp: "https://sheba-market.vercel.app/products/clothes"
+    webapp: "https://food-yt.vercel.app/#_",
+  },
+  {
+    id: 5,
+    title: "Shopify e-commerce App",
+    date: "Jul 2024",
+    description:
+      "A responsive front-end dashboard for employee data management. Developed with React and TypeScript, it presents a clean and modern user interface using TailwindCSS for optimal layout and readability.",
+    image: "/dpnh.png",
+    tags: ["Next Js", "Tailwind CSS", "TypeScript"],
+    category: "Web app",
+    webapp: "https://e-commerce-lovat-nine-20.vercel.app/employees",
+  },
+  {
+    id: 6,
+    title: "Aga Cieśla App",
+    date: "Jul 2024",
+    description:
+      "A modern and responsive e-commerce frontend showcasing a curated collection of watches. Built with React and styled with Tailwind CSS, it features a clean, user-centric design for an intuitive browsing and shopping experience.",
+    image: "/dd.png",
+    tags: ["React Js", "React", "Tailwind CSS", "TypeScript"],
+    category: "Web app",
+    webapp: "http://46.101.95.236/",
   },
   {
     id: 5,
     title: "UI/UX Design",
     date: "Jan 2023 - Present",
-      description:"A showcase of my design collections and creative UI/UX work.",
-    image:
-      "./my.jpg",
-    tags: ["Figma","Framer","Prototyping"],
+    description: "A showcase of my design collections and creative UI/UX work.",
+    image: "./my.jpg",
+    tags: ["Figma", "Framer", "Prototyping"],
     category: "UI/UX Design",
     webapp: "https://dagmawitabeselom.framer.website/",
   },
-  
 ];
 
 export const TimeLineData = [
   { year: 2019, text: "Joined Addis Abeba Unversity" },
-  { year: 2020, text: "start working on school projects and developing personal projects" },
+  {
+    year: 2020,
+    text: "start working on school projects and developing personal projects",
+  },
   { year: 2021, text: "Worked as a freelance developer" },
-  { year: 2023, text: "Taking different Internship programs inorder to increase my skills" },
+  {
+    year: 2023,
+    text: "Taking different Internship programs inorder to increase my skills",
+  },
   { year: 2024, text: "Started working my own projects" },
 ];
