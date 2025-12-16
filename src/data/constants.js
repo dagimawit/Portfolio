@@ -8,7 +8,7 @@ export const Bio = {
     "Competitive Programmer",
   ],
   description:
-    "Creative and adaptable Software Engineer who enjoys turning ideas into impactful digital solutions. I thrive in collaborative environments, love tackling challenges with a problem-solving mindset, and bring curiosity, adaptability, and a passion for continuous learning to every project.",
+    "I enjoy turning concepts into powerful digital solutions as a creative and flexible software engineer.  I work well in group settings, enjoy approaching problems with a problem-solving approach, and approach every project with curiosity, flexibility, and a love of lifelong learning.",
   github: "https://github.com/dagimawit",
   resume:
     "https://drive.google.com/file/d/1Gngh2H3qnYeHXkcAtAIhlmUwi8H4MTXe/view?usp=sharing",
